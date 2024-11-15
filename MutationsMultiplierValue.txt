@@ -1,0 +1,89 @@
+---Mutations values multiply with chances--- (The chances are to get it from appraising the fish.)
+
+-------------------
+Albino =
+Chance = 30%
+Price Multipler = 1.1x
+-------------------
+Darkened =
+Chance = 30%
+Price Multipler = 1.3x
+-------------------
+Electric =
+Chance = 15%
+Price Multipler = 1.45x
+-------------------
+Glossy =
+Chance = 25%
+Price Multipler = 1.6x
+-------------------
+Midas =
+Chance = 3%
+Price Multipler = 2x
+-------------------
+Silver =
+Chance = 15%
+Price Multipler = 1.6x
+-------------------
+Translucent =
+Chance = 20%
+Price Multipler = 1.3x
+-------------------
+Negative =
+Chance = 30%
+Price Multipler = 1.3x
+-------------------
+Mythical =
+Chance = 1%
+Price Multipler = 4.5x
+-------------------
+Frozen =
+Chance = 10%
+Price Multipler = 1.3x
+-------------------
+Atlantean =
+Chance = 0%
+Price Multipler = 3x
+-------------------
+Mosaic =
+Chance = 10%
+Price Multipler = 1.5x
+-------------------
+Aurora =
+Chance = 0%
+Price Multipler = 6.5x
+-------------------
+Nuclear =
+Chance = 0%
+Price Multipler = 2x
+-------------------
+Hexed =
+Chance = 15%
+Price Multipler = 1.5x
+-------------------
+Sunken =
+Chance = 0%
+Price Multipler = 8x
+-------------------
+Sandy =
+Chance = 0%
+Price Multipler = 1.2x
+-------------------
+Blessed =
+Chance = 0%
+Price Multipler = 10x
+-------------------
+Unsellable =
+Chance = 0%
+Price Multipler = x
+-------------------
+Sinster =
+Chance = 0%
+Price Multipler = 1.9x
+-------------------
+Ghastly =
+Chance = 0%
+Price Multipler = 2x
+-------------------
+
+Last updated: 15.11.2024 4:05PM
