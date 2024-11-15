@@ -1,0 +1,38 @@
+---This is a list of items and chances you can get from treasure chests---
+
+Baits = Truffle Worm, Weird Algae.
+Chance of getting baits = 10%
+How many baits you get each chest = 6
+
+Items = Quality Bait Crate, Fillionaire, Tempest Totem, Enchant Relic, Aurora Totem.
+Chance of getting items = Quality Bait Crate, Fillionaire, Tempest Totem, Enchant Relic 10% and Aurora Totem 1%
+How many items you get each chest =
+Quality Bait Crate = 3
+Fillionaire = 1
+Tempest Totem = 1
+Enchant Relic = 1
+Aurora Totem = 1
+
+Bobbers = Gold Coin, Compass, Whaley, Meteor Stone.
+Chance of getting bobbers = Gold Coin, Compass, Whaley 7.5% and Meteor Stone 2%
+
+Xp = 1500-3000
+Chance of getting xp = 3%
+
+Fisch mutations = Sunken.
+Fisch mutations locations = Forsaken Shores Pond, Forsaken Shores Ocean.
+Change of getting mutation for locations = 3%
+
+Rods = Sunken Rod.
+Change of getting rods= 0.5%
+
+-----------------------------------------------------------------------------------------
+
+Last updated 15.11.2024 3:30 PM
+
+
+
+
+
+
+
