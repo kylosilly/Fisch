@@ -10,9 +10,6 @@ Strength = 10.4
 LineDistance = 19
 Resilience = 0
 Control = 0
-Color = 154, 170, 190
-BobberTop = 134, 38, 38
-BobberBottom = 255, 255, 255
 Location = Moosewood
 -----------------------------
 Rod Name = Plastic Rod
@@ -24,9 +21,6 @@ Strength = 100
 LineDistance = 15
 Resilience = 10
 Control = 0
-Color = 73, 240, 255
-BobberTop = 163, 60, 60
-BobberBottom = 255, 242, 93
 Location = Moosewood
 -----------------------------
 Rod Name = Carbon Rod
