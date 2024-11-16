@@ -5,9 +5,13 @@ Albino =
 Chance = 30%
 Price Multipler = 1.1x
 -------------------
-Darkened =
+Abyssal =
 Chance = 30%
-Price Multipler = 1.3x
+Price Multipler = 1.1x
+-------------------
+Darkened =
+Chance = 5%
+Price Multipler = 1x
 -------------------
 Electric =
 Chance = 15%
@@ -75,7 +79,7 @@ Price Multipler = 10x
 -------------------
 Unsellable =
 Chance = 0%
-Price Multipler = x
+Price Multipler = 0x
 -------------------
 Sinster =
 Chance = 0%
@@ -86,4 +90,4 @@ Chance = 0%
 Price Multipler = 2x
 -------------------
 
-Last updated: 15.11.2024 4:05PM
+Last updated: 16.11.2024 3:45PM
