@@ -12,6 +12,68 @@ Resilience = 0
 Control = 0
 Location = Moosewood
 -----------------------------
+Rod Name = Buddy Bond Rod
+Price = math.huge
+Description = A friendly Rod!
+Luck = 5
+LureSpeed = 100
+Strength = 300
+LineDistance = 20
+Resilience = 0
+Control = 0
+Location = Forsaken Shores
+-----------------------------
+Rod Name = Developers Rod
+Price = math.huge
+Description = A rod made for developers not to have to suffer in fishing.
+Luck = 150
+LureSpeed = 99
+Strength = 99999
+LineDistance = 150
+Resilience = 99
+Control = 1
+-----------------------------
+Rod Name = Ultratech Rod
+Price = math.huge
+Description = A rod of Unknown origin, feels pretty heavy. The rod has a pressed-in text on it's bottom which says 'Ultratech v.3' and a scratched out name next to it which reads as: ZIK [For @Zik_isi]
+Luck = 150
+LureSpeed = 80
+Strength = 10000
+LineDistance = 100
+Resilience = 10
+Control = 0
+-----------------------------
+Rod Name = Fischer's Rod
+Price = math.huge
+Description = A fischer's starter rod to get started with Fisching! What else would you do with it?..
+Luck = 5
+LureSpeed = 95
+Strength = 50
+LineDistance = 20
+Resilience = 5
+Control = 0.05
+-----------------------------
+Rod Name = Scurvy Rod
+Price = 50000
+Description = This rod has been on every pirate ship imaginable. Decent at everything, bad at nothing. Just like a pirate should!
+Luck = 50
+LureSpeed = 85
+Strength = 2000
+LineDistance = 20
+Resilience = 15
+Control = 0
+-----------------------------
+Rod Name = Rod Of The Depths
+Price = 7500000
+Description = This Rod was crafted by the Legendary King of The Depths... Legends say, every once in a while the Spirit of the King visits you to hand you a gift from the deep waters!
+Luck = 130
+LureSpeed = 35
+Strength = 30000
+LineDistance = 100
+Resilience = 8.5
+Control = 0.15
+Location = The depths (To get it open door need 100% mastery vertigo than get abysal and hexxed enchant and put in the things maze will open and than you get the fish)
+-----------------------------
 Rod Name = Plastic Rod
 Price = 900
 Description = Made of ABS plastic; You can trust this rod will last you.
@@ -307,4 +369,4 @@ Strength = 5000
 LineDistance = 60
 -----------------------------
 
-Last updated = 15.11.2024 4:50PM
+Last updated = 16.11.2024 4:19PM
