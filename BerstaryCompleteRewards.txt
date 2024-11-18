@@ -1,0 +1,168 @@
+	All = {
+		Name = "Every";
+		Banner = "rbxassetid://18310847126";
+		Color = Color3.fromRGB(255, 255, 255);
+		BadgeId = 635398639427099;
+		Bobber = "Aurora";
+		Rewards = {
+			Coins = 10000;
+			Xp = 10000;
+		};
+	};
+	Moosewood = {
+		Name = "Moosewood Island";
+		Banner = "rbxassetid://18310954523";
+		Color = Color3.fromRGB(255, 94, 94);
+		BadgeId = 3871316346306270;
+		Bobber = "Rubber Ducky";
+		Rewards = {
+			Coins = 2000;
+			Xp = 2000;
+		};
+	};
+	["Keepers Altar"] = {
+		Name = "Keepers Altar";
+		Banner = "rbxassetid://131504032544120";
+		Color = Color3.fromRGB(63, 71, 185);
+		BadgeId = 772547227400435;
+		Bobber = "Skeleton";
+		Rewards = {
+			Coins = 1750;
+			Xp = 1750;
+		};
+	};
+	Roslit = {
+		Name = "Roslit Bay";
+		Banner = "rbxassetid://18542406497";
+		Color = Color3.fromRGB(255, 160, 64);
+		BadgeId = 225841574756551;
+		Bobber = "Fake Pufferfish";
+		Rewards = {
+			Coins = 2000;
+			Xp = 2000;
+		};
+	};
+	["Roslit Volcano"] = {
+		Name = "Roslit Volcano";
+		Banner = "rbxassetid://108037427819021";
+		Color = Color3.fromRGB(255, 160, 64);
+		BadgeId = 4479912445209985;
+		Bobber = "Lava";
+		Rewards = {
+			Coins = 2000;
+			Xp = 2000;
+		};
+	};
+	Terrapin = {
+		Name = "Terrapin Island";
+		Banner = "rbxassetid://18791315983";
+		Color = Color3.fromRGB(87, 255, 143);
+		BadgeId = 2994442057572213;
+		Bobber = "Mini Terrapin";
+		Rewards = {
+			Coins = 2000;
+			Xp = 2000;
+		};
+	};
+	Mushgrove = {
+		Name = "Mushgrove Swamp";
+		Banner = "rbxassetid://18952253458";
+		Color = Color3.fromRGB(150, 255, 102);
+		BadgeId = 4343979385420841;
+		Bobber = "Mushroom";
+		Rewards = {
+			Coins = 2000;
+			Xp = 2000;
+		};
+	};
+	Sunstone = {
+		Name = "Sunstone Island";
+		Banner = "rbxassetid://108032910283682";
+		Color = Color3.fromRGB(255, 236, 129);
+		BadgeId = 2903347774735091;
+		Bobber = "Sun";
+		Rewards = {
+			Coins = 2000;
+			Xp = 2000;
+		};
+	};
+	Snowcap = {
+		Name = "Snowcap Island";
+		Banner = "rbxassetid://101454347375454";
+		Color = Color3.fromRGB(165, 255, 214);
+		BadgeId = 4101868524305507;
+		Bobber = "Frozen";
+		Rewards = {
+			Coins = 2000;
+			Xp = 2000;
+		};
+	};
+	Ocean = {
+		Name = "Ocean";
+		Banner = "rbxassetid://18310945663";
+		Color = Color3.fromRGB(161, 199, 255);
+		BadgeId = 1045860405568363;
+		Bobber = "Anchor";
+		Rewards = {
+			Coins = 2000;
+			Xp = 2000;
+		};
+	};
+	Vertigo = {
+		Name = "Vertigo";
+		Banner = "rbxassetid://18952306740";
+		Color = Color3.fromRGB(127, 110, 255);
+		BadgeId = 3200076862852988;
+		Bobber = "Vertigo Rock";
+		Rewards = {
+			Coins = 2000;
+			Xp = 2000;
+		};
+	};
+	["Desolate Deep"] = {
+		Name = "Desolate Deep";
+		Banner = "rbxassetid://81573600788931";
+		Color = Color3.fromRGB(151, 187, 255);
+		BadgeId = 3161443122784523;
+		Bobber = "Infested";
+		Rewards = {
+			Coins = 2000;
+			Xp = 2000;
+		};
+	};
+	["Brine Pool"] = {
+		Name = "Brine Pool";
+		Banner = "rbxassetid://86510876700490";
+		Color = Color3.fromRGB(140, 255, 140);
+		BadgeId = 1535329670769985;
+		Bobber = "Brine";
+		Rewards = {
+			Coins = 2000;
+			Xp = 2000;
+		};
+	};
+	["Forsaken Shores"] = {
+		Name = "Forsaken Shores";
+		Banner = "rbxassetid://124958348694122";
+		Color = Color3.fromRGB(97, 73, 67);
+		BadgeId = 3591399443042848;
+		Bobber = "Pirate Wheel";
+		Rewards = {
+			Coins = 2000;
+			Xp = 2000;
+		};
+	};
+	["The Depths"] = {
+		Name = "The Depths";
+		Banner = "rbxassetid://115528091268474";
+		Color = Color3.fromRGB(97, 37, 37);
+		BadgeId = 2042505003241970;
+		Bobber = "Nautilis Shell";
+		Rewards = {
+			Coins = 2000;
+			Xp = 2000;
+		};
+	};
+}
+
+Last updated: 18.11.2024 10:40 AM
