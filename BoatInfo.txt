@@ -1,0 +1,179 @@
+-- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/wyButjTMhM)
+-- Decompiled on 2024-11-18 01:44:40
+-- Luau version 6, Types version 3
+-- Time taken: 0.002571 seconds
+
+local module = {
+	library = {
+		Rowboat = {
+			Price = 700;
+			Dedscriptipon = "Sail the seas with your trusty paddles!";
+			Level = 0;
+			MaxSpeed = 25;
+			Accel = 0.15;
+			TurningSpeed = 0.4;
+			BackwardsEfficiency = 1;
+			StopEfficiency = 2;
+			Bobbing = 3;
+			BobbingSpeed = 1;
+		};
+		Surfboard = {
+			Price = 1500;
+			Dedscriptipon = "Surf the waves, catch the sharks!";
+			Level = 7;
+			MaxSpeed = 30;
+			Accel = 0.2;
+			TurningSpeed = 0.5;
+			BackwardsEfficiency = 1;
+			StopEfficiency = 2;
+			Bobbing = 3;
+			BobbingSpeed = 0.5;
+		};
+		["Bass Boat"] = {
+			Price = 6000;
+			Dedscriptipon = "Great for fishing with pals!";
+			Level = 10;
+			MaxSpeed = 45;
+			Accel = 0.22;
+			TurningSpeed = 0.4;
+			BackwardsEfficiency = 1;
+			StopEfficiency = 0.7;
+			Bobbing = 2;
+			BobbingSpeed = 1;
+		};
+		Hovercraft = {
+			Price = 7000;
+			Dedscriptipon = "Hover around the seas! [Submission; @DDkreep, @LiamGame09, @kylecat11]";
+			Level = 15;
+			MaxSpeed = 55;
+			Accel = 0.22;
+			TurningSpeed = 0.4;
+			BackwardsEfficiency = 1;
+			StopEfficiency = 0.7;
+			Bobbing = 1;
+			BobbingSpeed = 1;
+		};
+		Speedboat = {
+			Price = 15000;
+			Dedscriptipon = "Sail around at remarkable speeds!";
+			Level = 20;
+			MaxSpeed = 85;
+			Accel = 0.25;
+			TurningSpeed = 0.5;
+			BackwardsEfficiency = 1;
+			StopEfficiency = 1.3;
+			Bobbing = 2.5;
+			BobbingSpeed = 1;
+		};
+		["Luxury Speedboat"] = {
+			Price = 20000;
+			Dedscriptipon = "Sail around at unpresedented speeds!";
+			Level = 50;
+			MaxSpeed = 150;
+			Accel = 0.3;
+			TurningSpeed = 0.54;
+			BackwardsEfficiency = 1;
+			StopEfficiency = 1.5;
+			Bobbing = 2;
+			BobbingSpeed = 1;
+		};
+		Jetski = {
+			Price = 50000;
+			Dedscriptipon = "Ski around with a friend at insane speeds!";
+			Level = 60;
+			MaxSpeed = 180;
+			Accel = 0.3;
+			TurningSpeed = 0.7;
+			BackwardsEfficiency = 1;
+			StopEfficiency = 3.5;
+			Bobbing = 2;
+			BobbingSpeed = 0.4;
+		};
+		["Fishing Boat"] = {
+			Price = 20000;
+			Dedscriptipon = "A trusty boat to reel in even the biggest fish!";
+			Level = 25;
+			MaxSpeed = 75;
+			Accel = 0.3;
+			TurningSpeed = 0.5;
+			BackwardsEfficiency = 1;
+			StopEfficiency = 2;
+			Bobbing = 2;
+			BobbingSpeed = 1.5;
+		};
+		Titan = {
+			Price = 5000;
+			Dedscriptipon = "Huh? Who would want this?";
+			Level = 40;
+			MaxSpeed = 45;
+			Accel = 0.2;
+			TurningSpeed = 0.2;
+			BackwardsEfficiency = 1;
+			StopEfficiency = 1.5;
+			Bobbing = 3;
+			BobbingSpeed = 1;
+		};
+		["Quack Cruiser"] = {
+			Price = 5000;
+			Dedscriptipon = "This duck sailed up to the lemonade stand.";
+			Level = 35;
+			MaxSpeed = 45;
+			Accel = 0.2;
+			TurningSpeed = 0.5;
+			BackwardsEfficiency = 1;
+			StopEfficiency = 2;
+			Bobbing = 4;
+			BobbingSpeed = 0.5;
+		};
+		Pontoon = {
+			Price = 20000;
+			Dedscriptipon = "Great for parties with some buddies!";
+			Level = 30;
+			MaxSpeed = 40;
+			Accel = 0.2;
+			TurningSpeed = 0.4;
+			BackwardsEfficiency = 1;
+			StopEfficiency = 2;
+			Bobbing = 1;
+			BobbingSpeed = 1;
+		};
+		["Pirate Ship"] = {
+			Price = 20000;
+			Dedscriptipon = "Argggg Matey!!";
+			Level = 30;
+			MaxSpeed = 80;
+			Accel = 0.2;
+			TurningSpeed = 0.3;
+			BackwardsEfficiency = 1;
+			StopEfficiency = 2;
+			Bobbing = 6;
+			BobbingSpeed = 3;
+		};
+		["Flying Dutchman"] = {
+			Price = -1;
+			Dedscriptipon = "Only available during FischFright-2024";
+			Level = 0;
+			MaxSpeed = 80;
+			Accel = 0.2;
+			TurningSpeed = 0.3;
+			BackwardsEfficiency = 1;
+			StopEfficiency = 2;
+			Bobbing = 6;
+			BobbingSpeed = 3;
+		};
+		["The Pearl"] = {
+			Price = 50000;
+			Dedscriptipon = "No one knows what sails this ship...";
+			Level = 90;
+			MaxSpeed = 95;
+			Accel = 0.2;
+			TurningSpeed = 0.3;
+			BackwardsEfficiency = 1;
+			StopEfficiency = 3;
+			Bobbing = 6;
+			BobbingSpeed = 3;
+		};
+	};
+}
+
+Last updated 18.11.2024 10:42 AM
