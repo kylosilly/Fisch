@@ -1,34 +1,143 @@
 ---This is a list of items and chances you can get from treasure chests---
 
-Baits = Truffle Worm, Weird Algae.
-Chance of getting baits = 10%
-How many baits you get each chest = 6
+	Loots = {
+		Default = {{
+			Category = "Baits";
+			Subvalues = {};
+			ItemId = "Truffle Worm";
+			Chance = 10;
+			Amount = 6;
+		}, {
+			Category = "Baits";
+			Subvalues = {};
+			ItemId = "Weird Algae";
+			Chance = 10;
+			Amount = 6;
+		}, {
+			Category = "Item";
+			Subvalues = {};
+			ItemId = "Quality Bait Crate";
+			Chance = 10;
+			Amount = 3;
+		}, {
+			Category = "Item";
+			Subvalues = {};
+			ItemId = "Fillionaire";
+			Chance = 10;
+			Amount = 1;
+		}, {
+			Category = "Item";
+			Subvalues = {};
+			ItemId = "Tempest Totem";
+			Chance = 10;
+			Amount = 1;
+		}, {
+			Category = "Item";
+			Subvalues = {};
+			ItemId = "Magic Thread";
+			Chance = 25;
+			Amount = 2;
+		}, {
+			Category = "Item";
+			Subvalues = {};
+			ItemId = "Ancient Thread";
+			Chance = 15;
+			Amount = 1;
+		}, {
+			Category = "Item";
+			Subvalues = {};
+			ItemId = "Lunar Thread";
+			Chance = 5;
+			Amount = 1;
+		}, {
+			Category = "Item";
+			Subvalues = {};
+			ItemId = "Enchant Relic";
+			Chance = 10;
+			Amount = 1;
+		}, {
+			Category = "Bobbers";
+			Subvalues = {};
+			ItemId = "Gold Coin";
+			Chance = 7.5;
+			Amount = 1;
+		}, {
+			Category = "Bobbers";
+			Subvalues = {};
+			ItemId = "Compass";
+			Chance = 7.5;
+			Amount = 1;
+		}, {
+			Category = "Bobbers";
+			Subvalues = {};
+			ItemId = "Whaley";
+			Chance = 7.5;
+			Amount = 1;
+		}, {
+			Category = "Bobbers";
+			Subvalues = {};
+			ItemId = "Compass";
+			Chance = 7.5;
+			Amount = 1;
+		}, {
+			Category = "Fish";
+			Subvalues = {
+				Mutation = "Sunken";
+			};
+			ItemId = "Forsaken Shores Ocean";
+			Chance = 3;
+			Amount = 1;
+			DYNAMIC = true;
+		}, {
+			Category = "Fish";
+			Subvalues = {
+				Mutation = "Sunken";
+			};
+			ItemId = "Forsaken Shores Pond";
+			Chance = 3;
+			Amount = 1;
+			DYNAMIC = true;
+		}, {
+			Category = "Item";
+			Subvalues = {};
+			ItemId = "Meteor Totem";
+			Chance = 5;
+			Amount = 1;
+		}, {
+			Category = "XP";
+			Subvalues = {};
+			ItemId = "";
+			Chance = 3;
+			Amount = {
+				Min = 1500;
+				Max = 2000;
+			};
+		}, {
+			Category = "Bobbers";
+			Subvalues = {};
+			ItemId = "Meteor Stone";
+			Chance = 2.5;
+			Amount = 1;
+		}, {
+			Category = "Item";
+			Subvalues = {};
+			ItemId = "Aurora Totem";
+			Chance = 2.5;
+			Amount = 1;
+		}, {
+			Category = "Rods";
+			Subvalues = {};
+			ItemId = "Sunken Rod";
+			Chance = 2.5;
+			Amount = 1;
+		}};
+	};
+}
 
-Items = Quality Bait Crate, Fillionaire, Tempest Totem, Enchant Relic, Aurora Totem.
-Chance of getting items = Quality Bait Crate, Fillionaire, Tempest Totem, Enchant Relic 10% and Aurora Totem 2,5%
-How many items you get each chest =
-Quality Bait Crate = 3
-Fillionaire = 1
-Tempest Totem = 1
-Enchant Relic = 1
-Aurora Totem = 1
-
-Bobbers = Gold Coin, Compass, Whaley, Meteor Stone.
-Chance of getting bobbers = Gold Coin, Compass, Whaley 7.5% and Meteor Stone 2%
-
-Xp = 1500-3000
-Chance of getting xp = 3%
-
-Fisch mutations = Sunken.
-Fisch mutations locations = Forsaken Shores Pond, Forsaken Shores Ocean.
-Change of getting mutation for locations = 3%
-
-Rods = Sunken Rod.
-Change of getting rods = 2,5%
 
 -----------------------------------------------------------------------------------------
 
-Last updated 16.11.2024 5:50 PM
+Last updated 5.12.2024 5:50 PM
 
 
 
