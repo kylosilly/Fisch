@@ -1,3 +1,4 @@
+
 	All = {
 		Name = "Every";
 		Banner = "rbxassetid://18310847126";
@@ -163,6 +164,62 @@
 			Xp = 2000;
 		};
 	};
+	["Ancient Isle"] = {
+		Name = "Ancient Isle";
+		Banner = "rbxassetid://79846684203518";
+		Color = Color3.fromRGB(140, 255, 194);
+		BadgeId = 2054807830474099;
+		Bobber = "Amber";
+		Rewards = {
+			Coins = 50000;
+			Xp = 10000;
+		};
+	};
+	["Ancient Archives"] = {
+		Name = "Ancient Archives";
+		Banner = "rbxassetid://89908035795264";
+		Color = Color3.fromRGB(56, 84, 41);
+		BadgeId = 1666493813690822;
+		Bobber = "Ancient Book";
+		Rewards = {
+			Coins = 5000;
+			Xp = 2500;
+		};
+	};
+	["Archeological Site"] = {
+		Name = "Archeological Site";
+		Banner = "rbxassetid://71112448286941";
+		Color = Color3.fromRGB(231, 241, 32);
+		Hide = true;
+		Limited = true;
+		Rewards = {
+			Coins = 0;
+			Xp = 0;
+		};
+	};
+	FischFright = {
+		Name = "FischFright";
+		Banner = "rbxassetid://73235985228051";
+		Color = Color3.fromRGB(85, 0, 255);
+		Hide = true;
+		Limited = true;
+		Rewards = {
+			Coins = 0;
+			Xp = 0;
+		};
+	};
+	Fischgiving = {
+		Name = "Fischgiving";
+		Banner = "rbxassetid://133466398979921";
+		Color = Color3.fromRGB(220, 94, 21);
+		Hide = true;
+		Limited = true;
+		Rewards = {
+			Coins = 0;
+			Xp = 0;
+		};
+	};
 }
 
-Last updated: 18.11.2024 10:40 AM
+
+Last updated: 5.12.2024
