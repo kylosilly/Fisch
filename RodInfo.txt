@@ -14,6 +14,19 @@
 		BobberBottom = Color3.fromRGB(255, 255, 255);
 		From = "Moosewood";
 	};
+	["Precision Rod"] = {
+		Price = math.huge;
+		Description = "Counterpart to rapid rod, with much better resilience!";
+		Luck = 150;
+		LureSpeed = 80;
+		Strength = 12000;
+		LineDistance = 100;
+		Resilience = 5;
+		Control = 0;
+		Color = Color3.fromRGB(154, 170, 190);
+		BobberTop = Color3.fromRGB(134, 38, 38);
+		BobberBottom = Color3.fromRGB(255, 255, 255);
+	};
 	["Plastic Rod"] = {
 		Price = 900;
 		Description = "Made of ABS plastic; You can trust this rod will last you.";
@@ -85,6 +98,7 @@
 		DEV = true;
 	};
 	["Rod Of The Depths"] = {
+		Passive = "ShadowEntity";
 		Requiriments = {
 			GatesOpened = {"TheDepthsGate", "TheDepthsMazeGate"};
 		};
@@ -146,6 +160,21 @@
 		Unregistered = true;
 		DEV = true;
 	};
+	["Pen Rod"] = {
+		Price = math.huge;
+		Description = "zoo wee mama! [For @ZooWeeMamaMoment]";
+		Luck = 150;
+		LureSpeed = 35;
+		Strength = math.huge;
+		LineDistance = 100;
+		Resilience = 10;
+		Control = 0.15;
+		Color = Color3.fromRGB(85, 85, 85);
+		BobberTop = Color3.fromRGB(98, 98, 98);
+		BobberBottom = Color3.fromRGB(17, 17, 17);
+		Unregistered = true;
+		DEV = true;
+	};
 	["Sovereign Doombringer"] = {
 		Price = math.huge;
 		Description = "Obliterate fish with a huge hammer. [Developer-Exclusive]";
@@ -158,6 +187,21 @@
 		Color = Color3.fromRGB(137, 198, 255);
 		BobberTop = Color3.fromRGB(151, 184, 255);
 		BobberBottom = Color3.fromRGB(32, 37, 47);
+		Unregistered = true;
+		DEV = true;
+	};
+	["Katana Rod"] = {
+		Price = math.huge;
+		Description = "[For @ennnryu]";
+		Luck = 150;
+		LureSpeed = 35;
+		Strength = math.huge;
+		LineDistance = 100;
+		Resilience = 10;
+		Control = 0.15;
+		Color = Color3.fromRGB(177, 177, 177);
+		BobberTop = Color3.fromRGB(197, 197, 197);
+		BobberBottom = Color3.fromRGB(48, 48, 48);
 		Unregistered = true;
 		DEV = true;
 	};
@@ -255,6 +299,34 @@
 		Color = Color3.fromRGB(255, 178, 89);
 		BobberTop = Color3.fromRGB(244, 152, 86);
 		BobberBottom = Color3.fromRGB(39, 31, 25);
+	};
+	["Stone Rod"] = {
+		Price = 3000;
+		Description = "A rock-hard rod made purely from stone, which also makes it quite heavy.";
+		Luck = 10;
+		LureSpeed = 125;
+		Strength = 900;
+		LineDistance = 24;
+		Resilience = 5;
+		Control = 0;
+		Color = Color3.fromRGB(110, 110, 120);
+		BobberTop = Color3.fromRGB(85, 85, 93);
+		BobberBottom = Color3.fromRGB(32, 32, 35);
+		From = "Ancient Isle";
+	};
+	["Phoenix Rod"] = {
+		Price = 40000;
+		Description = "Embued with the spirit of the graceful Phoenix. All fish have a 40% chance to be set ablaze.";
+		Luck = 30;
+		LureSpeed = 45;
+		Strength = 2800;
+		LineDistance = 20;
+		Resilience = -10;
+		Control = 0.02;
+		Color = Color3.fromRGB(255, 98, 87);
+		BobberTop = Color3.fromRGB(234, 78, 255);
+		BobberBottom = Color3.fromRGB(255, 116, 51);
+		From = "Ancient Isle";
 	};
 	["Midas Rod"] = {
 		Price = 55000;
@@ -432,7 +504,7 @@
 		Color = Color3.fromRGB(145, 255, 115);
 		BobberTop = Color3.fromRGB(162, 255, 134);
 		BobberBottom = Color3.fromRGB(34, 53, 66);
-		From = "Forsaken Shores";
+		Unregistered = true;
 	};
 	["Ultratech Rod"] = {
 		Price = math.huge;
@@ -452,9 +524,9 @@
 	["Fischer's Rod"] = {
 		Price = math.huge;
 		Description = "A fischer's starter rod to get started with Fisching! What else would you do with it?..";
-		Luck = 5;
-		LureSpeed = 95;
-		Strength = 50;
+		Luck = 10;
+		LureSpeed = 90;
+		Strength = 100;
 		LineDistance = 20;
 		Resilience = 5;
 		Control = 0.05;
@@ -476,6 +548,23 @@
 		BobberTop = Color3.fromRGB(245, 205, 48);
 		BobberBottom = Color3.fromRGB(170, 0, 170);
 		From = "Forsaken Shores";
+	};
+	["Relic Rod"] = {
+		Price = math.huge;
+		Requiriments = {
+			GatesOpened = {"RelicRodGate"};
+		};
+		Description = "A really old rod, found from the tombs of ancient isles, crafted out of ancient bone, but does it hold a mysterious power within it?";
+		Luck = 25;
+		LureSpeed = 80;
+		Strength = 2500;
+		LineDistance = 20;
+		Resilience = 20;
+		Control = 0.05;
+		Color = Color3.fromRGB(186, 178, 175);
+		BobberTop = Color3.fromRGB(245, 213, 195);
+		BobberBottom = Color3.fromRGB(133, 170, 158);
+		Unregistered = true;
 	};
 	["Developers Rod"] = {
 		Price = math.huge;
@@ -506,5 +595,189 @@
 		Unregistered = true;
 		DEV = true;
 	};
+	["The Twig"] = {
+		Price = math.huge;
+		Description = "I think it genuinely may break in two. [WoozyNate Only]";
+		Luck = 300;
+		LureSpeed = 1;
+		Strength = math.huge;
+		LineDistance = 100;
+		Resilience = 50;
+		Control = 0;
+		Color = Color3.fromRGB(255, 255, 255);
+		BobberTop = Color3.fromRGB(172, 172, 172);
+		BobberBottom = Color3.fromRGB(59, 59, 59);
+		Unregistered = true;
+		DEV = true;
+	};
+	["Test Rod"] = {
+		Price = math.huge;
+		Description = "Test Rod Description";
+		Luck = 15;
+		LureSpeed = 90;
+		Strength = 100;
+		LineDistance = 15;
+		Resilience = 10;
+		Control = 0;
+		Color = Color3.fromRGB(73, 240, 255);
+		BobberTop = Color3.fromRGB(163, 60, 60);
+		BobberBottom = Color3.fromRGB(255, 242, 93);
+		Unregistered = true;
+		DEV = true;
+	};
+	["Voyager Rod"] = {
+		Price = math.huge;
+		Description = "A rod forged by an ancient civilization, capable of mass destruction. All fish have a 25% chance to be fossilized. [Lasers fish with an orbital cannon]";
+		Luck = 20;
+		LureSpeed = 85;
+		Strength = 2800;
+		LineDistance = 60;
+		Resilience = 0;
+		Control = -0.02;
+		Color = Color3.fromRGB(204, 181, 255);
+		BobberTop = Color3.fromRGB(255, 178, 53);
+		BobberBottom = Color3.fromRGB(228, 202, 235);
+	};
+	["Rod Of The Forgotten Fang"] = {
+		Passive = "Shark";
+		Price = math.huge;
+		Description = "After 5 perfect catches, triggers a special mode where a Meg jumps out of the Deeps with a higher-tier fish, boasting a 15-20% size buff.";
+		Luck = 125;
+		LureSpeed = 55;
+		Strength = math.huge;
+		LineDistance = 100;
+		Resilience = 25;
+		Control = 0.2;
+		Color = Color3.fromRGB(49, 155, 255);
+		BobberTop = Color3.fromRGB(228, 244, 255);
+		BobberBottom = Color3.fromRGB(39, 59, 124);
+	};
+	["Rod Of The Eternal King"] = {
+		Passive = "RoyalEscort";
+		Price = math.huge;
+		Description = "Every 30 seconds, a 10% chance summons a 'Royal Escort', boosting luck by 150% for 10 seconds. If you miss a catch, there's a 15% chance of immediately catching a higher rarity fish.";
+		Luck = 150;
+		LureSpeed = 75;
+		Strength = 75000;
+		LineDistance = 80;
+		Resilience = 0;
+		Control = 0.1;
+		Color = Color3.fromRGB(255, 221, 25);
+		BobberTop = Color3.fromRGB(255, 211, 33);
+		BobberBottom = Color3.fromRGB(124, 72, 8);
+		SplashSound = game.ReplicatedStorage.resources.sounds.sfx.fishing.customSplashes["Eternal King Splash"];
+	};
+	["Resourceful Rod"] = {
+		Passive = "2xBaits";
+		Price = math.huge;
+		Description = "Doubles the effects of all bait, enhancing your fishing experience and increasing the efficiency of every catch.";
+		Luck = 20;
+		LureSpeed = 85;
+		Strength = 1000;
+		LineDistance = 50;
+		Resilience = 0;
+		Control = -0.01;
+		Color = Color3.fromRGB(255, 75, 15);
+		BobberTop = Color3.fromRGB(255, 211, 33);
+		BobberBottom = Color3.fromRGB(124, 72, 8);
+	};
+	["Seasons Rod"] = {
+		Passive = "Seasons";
+		Price = math.huge;
+		Description = "\t\t\tBoosts fish luck by 20% for the current season. It may also grant a \"Seasonal\" mutation that changes the fish's colors based on the season it was caught.\n\n\t\t\tSeasonal Mutation Buffs -> Winter: 2.5x Sell Price,  Summer: +25% Size, Spring: 3x Sell Price\n\t\t";
+		Luck = 25;
+		LureSpeed = 85;
+		Strength = 3000;
+		LineDistance = 50;
+		Resilience = 10;
+		Control = 0.03;
+		Color = Color3.fromRGB(255, 185, 115);
+		BobberTop = Color3.fromRGB(255, 211, 33);
+		BobberBottom = Color3.fromRGB(124, 72, 8);
+	};
+	["Wisdom Rod"] = {
+		Passive = "WisdomPassive";
+		Price = math.huge;
+		Description = "A mystical rod that rewards consecutive catches, granting a 70-100% XP bonus after 5 successful catches in a row.";
+		Luck = 20;
+		LureSpeed = 100;
+		Strength = 800;
+		LineDistance = 50;
+		Resilience = 0;
+		Control = 0.05;
+		Color = Color3.fromRGB(54, 47, 5);
+		BobberTop = Color3.fromRGB(255, 211, 33);
+		BobberBottom = Color3.fromRGB(124, 72, 8);
+	};
+	["Celestial Rod"] = {
+		Passive = "CelestialPower";
+		Price = math.huge;
+		Description = "After catching 85 fish, summon Celestial powers for 5 minutes, boosting +50% luck, +30% lure speed. Caught fish also get the Celestial mutation & +30% XP on them!";
+		Luck = 50;
+		LureSpeed = 70;
+		Strength = math.huge;
+		LineDistance = 70;
+		Resilience = 5;
+		Control = 0.06;
+		Color = Color3.fromRGB(19, 145, 255);
+		BobberTop = Color3.fromRGB(58, 134, 255);
+		BobberBottom = Color3.fromRGB(43, 208, 189);
+	};
+	["The Lost Rod"] = {
+		Passive = "PerfectCatch";
+		Price = math.huge;
+		Description = "After 6 Perfect Catches in a row, it triggers a special mode that boosts the rod's Luck by 150% for the next 3 casts.";
+		Luck = 25;
+		LureSpeed = 85;
+		Strength = 50000;
+		LineDistance = 70;
+		Resilience = 5;
+		Control = 0.08;
+		Color = Color3.fromRGB(64, 255, 102);
+		BobberTop = Color3.fromRGB(255, 211, 33);
+		BobberBottom = Color3.fromRGB(124, 72, 8);
+	};
+	["Riptide Rod"] = {
+		Passive = "HighTide";
+		Price = math.huge;
+		Description = "The Riptide Rod fills its Tide Meter by 20% with each Perfect Cast. At max, it enters `High Tide` for 3 casts, boosting rarity chance by 30% and bite speed by 25%.";
+		Luck = 25;
+		LureSpeed = 85;
+		Strength = 3500;
+		LineDistance = 50;
+		Resilience = 5;
+		Control = 0.05;
+		Color = Color3.fromRGB(66, 94, 255);
+		BobberTop = Color3.fromRGB(255, 211, 33);
+		BobberBottom = Color3.fromRGB(124, 72, 8);
+	};
+	RegisteredNumberOfRods = (function() -- Line 786, Named "count"
+		--[[ Upvalues[1]:
+			[1]: module_upvr (readonly)
+		]]
+		local var66
+		for _, v in pairs(module_upvr) do
+			if typeof(v) == "table" and not v.Unregistered then
+				var66 += 1
+			end
+		end
+		return var66
+	end)();
+	UnRegistered = {
+		["Executive Rod"] = "Executive Rod";
+		["Evil Pitchfork of Doom Rod"] = "Evil Pitchfork of Doom Rod";
+		["Abyssal Spinecaster"] = "Abyssal Spinecaster";
+		["Tetra Rod"] = "Tetra Rod";
+		["Sovereign Doombringer"] = "Sovereign Doombringer";
+		["Ultratech Rod"] = "Ultratech Rod";
+		["Mystic Staff"] = "Mystic Staff";
+		["Katana Rod"] = "Katana Rod";
+		["The Twig"] = "The Twig";
+		["Test Rod"] = "Test Rod";
+		["Pen Rod"] = "Pen Rod";
+		["Relic Rod"] = "Relic Rod";
+		["Buddy Bond Rod"] = "Buddy Bond Rod";
+	};
+}
 
-Last updated = 18.11.2024 10:38 AM
+Last updated = 5.12.2024 10:38 AM
